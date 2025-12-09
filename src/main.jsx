@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 // Contextos
 import { AuthProvider } from "./context/AuthContext.jsx";
-import { CartProvider } from "./context/cart-context.js";
+import { CartProvider } from "./context/cart-context.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
