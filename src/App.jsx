@@ -4,8 +4,8 @@ import { ToastContainer } from "react-toastify";
 import Home from "./pages/Home.jsx";
 import Login from "./pages/Login.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
-import Carrito from "./pages/carrito.jsx";
-import Admin from "./pages/admin.jsx";
+import Carrito from "./pages/Carrito.jsx";
+import Admin from "./pages/Admin.jsx";
 import Productos from "./pages/Productos.jsx";
 import ProtectedRoute from "./components/ProtectedRoute.jsx"; // ajusta según donde lo guardaste
 
