@@ -1,7 +1,7 @@
+// src/context/cart-context.jsx
 import { createContext } from "react";
 
-const CartContext = createContext();
-
-export default CartContext;
+// Export nombrado
+export const CartContext = createContext();
 
 
