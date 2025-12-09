@@ -1,16 +1,29 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Proyecto Final React – Tienda Virtual
 
-Currently, two official plugins are available:
+## Descripción
+Este proyecto es una **Tienda Virtual** realizada con React y Vite.  
+Incluye:  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Listado de productos con **Home**  
+- Carrito de compras con **add/remove/clear**  
+- CRUD de productos en **Productos.jsx**  
+- **Dashboard** y **Admin** solo accesibles para usuarios logueados  
+- Login simulado con **localStorage**  
+- Notificaciones con **React Toastify**  
+- Estilos con **Bootstrap** y **React Icons**  
+- Rutas protegidas con React Router v6  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Instalación
 
-## Expanding the ESLint configuration
+1. Clonar el repositorio:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone <URL_DEL_REPOSITORIO>
+cd entrega-react
+npm install
+npm run dev
+
